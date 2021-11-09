@@ -25,12 +25,6 @@ h2 {
   margin: 30px;
 }
 
-.long {
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 footer {
   display: flex;
   justify-content: center;
