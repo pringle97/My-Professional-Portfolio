@@ -1,6 +1,5 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
 }
 
 nav {
@@ -23,7 +22,9 @@ h2 {
 .container {
   background-color: #C3ACCE;
   margin: 30px;
+  font-size: 25px;
 }
+
 
 footer {
   display: flex;
