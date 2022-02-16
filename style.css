@@ -2,20 +2,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.profile {
+/* .profile {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   padding-top: 10px;
-}
+} */
 
-nav {
+/* nav {
   background-color: #382633;
   display: inline-flex;
   width: 100%;
-}
+} */
 
 .title {
   color: white;
@@ -46,3 +46,4 @@ footer {
   text-align: center;
   background-color: #382633;
 }
+
