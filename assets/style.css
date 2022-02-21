@@ -25,7 +25,11 @@
   text-align: center;
 }
 
-.items {
-  justify-content: space-between;
+.icons {
+  height: 120px;
+  width: 120px;
 }
 
+.logos {
+  text-align: center;
+}
