@@ -1,49 +1,21 @@
 * {
   font-family: 'Open Sans', sans-serif;
-}
-
-/* .profile {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  padding-top: 10px;
-} */
-
-/* nav {
-  background-color: #382633;
-  display: inline-flex;
-  width: 100%;
-} */
-
-.title {
+  background-color: rgb(9, 9, 36);
   color: white;
-  font-size: 60px;
 }
 
-h2 {
-  font-size: 40px;
-  margin: 10px;
-  padding-top: 35px;
-}
-
-.container {
-  background-color: #C3ACCE;
-  margin: 30px;
-  font-size: 25px;
-}
-
-
-footer {
-  display: flex;
-  justify-content: center;
+nav {
   width: 100%;
-  /* position: fixed; */
-  bottom: 0;
-  font-size: 12px;
-  color: white;
+}
+
+.about-title {
   text-align: center;
-  background-color: #382633;
+  font-size: 120px;
+  padding-top: 250px;
 }
 
+.about {
+  text-align: center;
+  padding-bottom: 200px;
+  font-size: large;
+}
