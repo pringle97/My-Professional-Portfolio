@@ -12,7 +12,7 @@
 
 <body>
   <!-- navbar section -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="nav navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">MALIA</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -22,12 +22,12 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#"></a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Projects</a>
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#skills">Skills</a>
           <a class="nav-link"
             href="https://docs.google.com/document/d/1XaGrkIp5qpUXWZ4WFL7IhrV65C_FRvTlDtgoJBMG_tw/edit?usp=sharing">Resume</a>
-          <button class="btn btn-sm btn-outline-secondary" type="button">Contact Me</button>
+          <a class="nav-link" href="#contact">Contact Me</a>
         </div>
       </div>
     </div>
@@ -53,12 +53,37 @@
       </p>
     </main>
     <!-- project section -->
-    <section class="container col">
-      <h2>My Projects</h2>
-      <div class="row align-items-start">
+    <section class="container col-6" id="projects">
+      <h1>My Projects</h1>
+      <hr>
+      <div class="card col">
+        <a href="http://chat-wallet.herokuapp.com/">
+          <img src="/assets/chrome_6kWbn23f2y.jpg" class="card-img-top" alt="home page screenshot from chat wallet app"></a>
+        <div class="card-body">
+          <h5 class="card-title">Chat Wallet</h5>
+          <p class="card-text">Chat Wallet is an app where you can make an account, login, and chat with others in
+            real
+            time
+            about different hobbies in chat rooms! Deployed on Heroku</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col">
+          <a href="https://pocketchange.herokuapp.com/">
+            <img src="chrome_L0eLN4J5mC.png" class="card-img-top" alt="home page screenshot from chat wallet app"></a>
+          <div class="card-body">
+            <h5 class="card-title">Pocket Change</h5>
+            <p class="card-text">A budget-tracking app to help with finances on a monthly basis. After creating an account and logging in, users can
+            input their
+            expenses and calculate what percentage they would like to save each month. There is also an option to create a monthly
+            report
+            to track expenses by month.
+</p>
+          </div>
+        </div>
         <div class="card col">
           <a href="https://kelleyindahouse.github.io/catchAllTheDadJokes/index.html">
-            <img src="./assets/safari-zone-pic.png" class="card-img-top"
+            <img src="/assets/safari-zone-pic.png" class="card-img-top"
               alt="screenshot of the safari zone application"></a>
           <div class="card-body">
             <h5 class="card-title">The Safari Zone</h5>
@@ -69,47 +94,27 @@
               the About Us section. Click the image below to play.</p>
           </div>
         </div>
-        
-      </div>
-      <div class="row align-items-center">
-        <div class="card col ">
-          <a href="https://kelleyindahouse.github.io/catchAllTheDadJokes/index.html">
-            <img src="./assets/safari-zone-pic.png" class="card-img-top"
+        <div class="card col">
+          <a href="https://tech-bloggy-blog.herokuapp.com/">
+            <img src="yHzqZJR.png" class="card-img-top"
               alt="screenshot of the safari zone application"></a>
           <div class="card-body">
-            <h5 class="card-title">The Safari Zone</h5>
-            <p class="card-text">For this application, I worked together with my colleagues to create a game using
-              multiple
-              APIs and local storage. Catch pokemon and talk with them in the Pokedex. You can also learn about our team
-              in
-              the About Us section. Click the image below to play.</p>
-          </div>
-        </div>
-        
-      </div>
-      <div class="row align-items-start">
-        <div class="card col">
-          <a href="http://chat-wallet.herokuapp.com/">
-            <img src="./assets/chrome_6kWbn23f2y.jpg" class="card-img-top"
-              alt="home page screenshot from chat wallet app"></a>
-          <div class="card-body">
-            <h5 class="card-title">Chat Wallet</h5>
-            <p class="card-text">Chat Wallet is an app where you can make an account, login, and chat with others in
-              real
-              time
-              about different hobbies in chat rooms!</p>
+            <h5 class="card-title">Tech Blog</h5>
+            <p class="card-text">A blog where you can make an account and login to start posting. Comment on others' posts and join the fun! Created with express.js, MySQL, Sequelize, dotenv, and jsonwebtoken.</p>
           </div>
         </div>
       </div>
       <br>
     </section>
 <!-- skills section -->
-    <section>
-      <h1>my skills</h1>
+    <section style="text-align: center;" id="skills">
+      <h1>Skills</h1>
+      <p>Here are technologies I am familiar with:</p>
     </section>
+
 <!-- *contact portion* -->
-    <section>
-      <h1>contact me</h1>
+    <section id="contact">
+      <h1 style="text-align: center;">Let's Collaborate</h1>
     </section>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
