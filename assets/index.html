@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Malia Pringle: Web Developer</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 </head>
@@ -25,8 +26,7 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#skills">Skills</a>
-          <a class="nav-link"
-            href="https://docs.google.com/document/d/1XaGrkIp5qpUXWZ4WFL7IhrV65C_FRvTlDtgoJBMG_tw/edit?usp=sharing">Resume</a>
+          <a class="nav-link" href="https://drive.google.com/file/d/1SwkS7XoKbpisdOd5_1k1eGOWjo6UKJqm/view">Resume</a>
           <a class="nav-link" href="#contact">Contact Me</a>
         </div>
       </div>
@@ -53,23 +53,23 @@
       </p>
     </main>
     <!-- project section -->
-    <section class="container col-6" id="projects">
+    <div class="container " id="projects">
       <h1>My Projects</h1>
       <hr>
-      <div class="card col">
-        <a href="http://chat-wallet.herokuapp.com/">
-          <img src="/assets/chrome_6kWbn23f2y.jpg" class="card-img-top"
-            alt="home page screenshot from chat wallet app"></a>
-        <div class="card-body">
-          <h5 class="card-title">Chat Wallet</h5>
-          <p class="card-text">Chat Wallet is an app where you can make an account, login, and chat with others in
-            real
-            time
-            about different hobbies in chat rooms! Deployed on Heroku</p>
+      <div class="card-deck row">
+        <div class="card col-md-6 mb-4">
+          <a href="http://chat-wallet.herokuapp.com/">
+            <img src="/assets/chrome_6kWbn23f2y.jpg" class="card-img-top"
+              alt="home page screenshot from chat wallet app"></a>
+          <div class="card-body">
+            <h5 class="card-title">Chat Wallet</h5>
+            <p class="card-text">Chat Wallet is an app where you can make an account, login, and chat with others in
+              real
+              time
+              about different hobbies in chat rooms! Deployed on Heroku</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="card col">
+        <div class="card col-md-6 mb-4">
           <a href="https://pocketchange.herokuapp.com/">
             <img src="chrome_L0eLN4J5mC.png" class="card-img-top" alt="home page screenshot from chat wallet app"></a>
           <div class="card-body">
@@ -84,7 +84,7 @@
             </p>
           </div>
         </div>
-        <div class="card col">
+        <div class="card col-md-6 mb-4">
           <a href="https://kelleyindahouse.github.io/catchAllTheDadJokes/index.html">
             <img src="/assets/safari-zone-pic.png" class="card-img-top"
               alt="screenshot of the safari zone application"></a>
@@ -97,7 +97,7 @@
               the About Us section.</p>
           </div>
         </div>
-        <div class="card col">
+        <div class="card col-md-6 mb-4">
           <a href="https://tech-bloggy-blog.herokuapp.com/">
             <img src="yHzqZJR.png" class="card-img-top" alt="screenshot of the safari zone application"></a>
           <div class="card-body">
@@ -107,8 +107,8 @@
           </div>
         </div>
       </div>
-      <br>
     </section>
+    <br>
     <!-- skills section -->
     <section style="text-align: center;" id="skills">
       <h1>Skills</h1>
@@ -123,14 +123,26 @@
         <img class="icons" src="./icons/git.png" alt="git img">
       </div>
     </section>
-
     <!-- *contact portion* -->
     <section id="contact">
       <h1 style="text-align: center;">Let's Collaborate</h1>
+      <h3>Feel free to reach out to me directly through my email, Github, or Linkedin. You also have the option to leave
+        a message for me here! I look forward to your message.</h3>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        </div>
+      </form>
+
+
     </section>
-<div class="logos">
-<a href="https://www.flaticon.com/free-icons/logo" title="logo icons">Logo icons created by Freepik - Flaticon</a>
-</div>
+
+
+    <div class="logos">
+      <a href="https://www.flaticon.com/free-icons/logo" title="logo icons">Logo icons created by Freepik - Flaticon</a>
+    </div>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 

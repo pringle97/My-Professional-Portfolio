@@ -32,3 +32,15 @@
 .logos {
   text-align: center;
 }
+
+.card {
+  padding: 0px;
+  flex: auto;
+  width: 33.3%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
