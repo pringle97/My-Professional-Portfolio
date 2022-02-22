@@ -33,14 +33,15 @@
   text-align: center;
 }
 
-.card {
-  padding: 0px;
-  flex: auto;
-  width: 33.3%;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
+.btn {
+  float: right;
+}
+
+.bottom {
+  padding-top: 350px;
+}
