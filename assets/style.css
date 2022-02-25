@@ -10,7 +10,7 @@
 
 .about-title {
   text-align: center;
-  font-size: 120px;
+  font-size: 110px;
   padding-top: 250px;
 }
 
@@ -25,7 +25,9 @@
 }
 
 .skills {
-  padding: 100px;
+  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .icons {
@@ -38,8 +40,8 @@
 }
 
 .row {
+  padding-top: 20px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .btn {
