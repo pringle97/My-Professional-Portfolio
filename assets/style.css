@@ -16,7 +16,7 @@
 
 .about {
   text-align: center;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   font-size: large;
 }
 
@@ -24,10 +24,26 @@
   text-align: center;
 }
 
-.skills {
+#skills {
   padding: 50px;
-  padding-top: 50px;
+  padding-top: 120px;
   padding-bottom: 70px;
+}
+
+#skillsList {
+
+  text-align: left;
+  font-size: x-large;
+  display: flex
+  -webkit-columns: 40px 2;
+            /* Chrome, Safari, Opera */
+            -moz-columns: 60px 2;
+            /* Firefox */
+            columns: 60px 2;
+}
+
+#contact {
+  padding-top: 150px;
 }
 
 .icons {
